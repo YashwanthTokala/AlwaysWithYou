@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #ff1053;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    background-image: url("web_logo.jpeg");
+    height: 60px;
+    width: 60px; 
+    background-size: cover;
+}
+.tag{
+    margin-left: 0px;
+}
+.border{
+    border: 2px solid #ff105488;
+}
+.border:hover{
+    border: 2px solid #C1CAD6;
+    border-radius: 2px;
+}
+/* ADDRESS */
+.add-fir{
+    color: #cccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.address_logo{
+    display: flex;
+    align-items: center;
+}
+/* SEARCH BAR */
+.search-bar{
+    display: flex;
+    width: 448px;
+    height: 38px;
+    border-radius: 3px;
+}
+.search-icon{
+    background-color: #C1CAD6;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.search-icon:active{
+    border: 1.5px solid #d7d9db;
+    border-radius: 3px;
+}
+.search-space{
+    width: 345px;
+}
+.search-space:active{
+    border: 1.5px solid #C1CAD6;
+    border-radius: 3px;
+}
+.option-bar{
+    width: 50px;
+    background-color: #cccc;
+    border-radius: 3px;
+}
+.option-bar:active{
+    border: 1.5px solid #C1CAD6;
+    border-radius: 3px;
+}
+.search-button{
+    background-color: #C1CAD6;
+    border: #C1CAD6;
+    font-size: 1.1rem;
+}
+/* LANGUAGE */
+.lang{
+    width: 80px;
+    height: 33x;
+    display: flex;
+}
+.flag{
+    background-image: url("ind_flag.jpeg");
+    width: 100%;
+    height: 20px;
+    background-size: cover;
+}
+.lang-options{
+    color: white;
+    font-size: 1rem;
+    background-color: #ff1053;
+    border: #ff1053;
+}
+/* SIGN IN SECTION */
+.nav-fir{
+    font-size: 12px;
+}
+.nav-sec{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* CART */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-weight: bold;
+}
+/***************** PANEL ***************************/
+.panel{
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #ff105488;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pan-All{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.opt{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 1px 10px 1px 10px;
+}
+.panel-deals{
+    position: absolute;
+    right: 0;
+}
+.border1{
+    border: 1.5px solid #ff10541a;
+}
+.border1:hover{
+    border: 1.5px solid #C1CAD6;
+    border-radius: 2px;
+}
+/************** HERO SECTION ***************/
+.hero-section{
+    height: 380px;
+    background-image: url("img_1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-msg{
+    display: flex;
+    height: 30px;
+    color: white;
+    background-color: #850454;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+/******* SHOPPING SECTION **********/
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #ff105488; */
+    flex-wrap: wrap;
+    background-color: #C1CAD6;
+}
+.box{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: border-box;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.box1-img{
+    background-image: url("box1_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #ff1053;
+}
+.box2-img{
+    background-image: url("bx2_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+}
+.box3-img{
+    background-image: url("box3_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+.box4-img{
+    background-image: url("box4_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+.box5-img{
+    background-image: url("box5_img.jpg");
+    height: 248px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+.box6-img{
+    background-image: url("box6_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+.box7-img{
+    background-image: url("box7_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+.box8-img{
+    background-image: url("box8_img.jpg");
+    height: 275px;
+    width: 90%;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+/******* FOOTER ********/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    display: flex;
+    height: 50px;
+    background-color: #ff105488;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.foot-panel2{
+    background-color: #ff1054cd;
+    height: 320px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul p{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    color: white;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel3{
+    height: 100px;
+    margin-top: 1px;
+    background-color: #ff1054cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel3-sec2{
+    display: flex;
+    justify-content: center;
+}
+.language{
+    width: 100px;
+    height: 33px;
+}
+.lan{
+    background-color: #ff105444;
+    border: 2px solid #C1CAD6;
+    color: white;
+    margin-left: 100px;
+}
+.currency{
+    width: 100px;
+    height: 33px;
+}
+.cur{
+    background-color: #ff105444;
+    border: 2px solid #C1CAD6;
+    color: white;
+    margin-left: 100px;
+}
+.country{
+    width: 100px;
+    height: 33px;
+}
+.coun{
+    background-color: #ff105444;
+    border: 2px solid #C1CAD6;
+    color: white;
+    margin-left: 30px;
+}
+.foot-panel4{
+    height: 50px;
+    background-color: #ff1053;
+    color: white;
+}
+.pages a {
+    color: white;
+    font-size: 0.75rem;
+}
+.pages{
+    text-align: center;
+    padding-top: 10px;
+}
+.copyright{
+    font-size: 0.75rem;
+    padding-top: 2px;
+    text-align: center;
+}

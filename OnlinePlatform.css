@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+div:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+.navbar{
+    height: 60px;
+    background-color: #ff1053;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazLogo.jpeg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+/* ADDRESS */
+.add-fir{
+    color: #cccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.address_logo{
+    display: flex;
+    align-items: center;
+}
+/* SEARCH BAR */
+.search-bar{
+    display: flex;
+    width: 450px;
+    height: 38px;
+    border-radius: 3px;
+}
+.search-icon{
+    background-color: #C1CAD6;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.search-space{
+    width: 345px;
+}
+.option-bar{
+    width: 50px;
+    background-color: #cccc;
+}
+.search-button{
+    background-color: #C1CAD6;
+    border: #C1CAD6;
+}
+
